@@ -23,5 +23,5 @@ This is a four function calculator browser extension.
 7. **Done**
    - Go to the search bar of the browser and you will see the extensions.
   
-- **Igore the popup warning**
-  - For sercurity reason, browser will remind you with a popup message that said you turned on the developer mode because you installed a third party extensions, if you make sure the extensions is from trused sources or you checked the code that it is safe to use, then you can igore the message.
+- **ignore the popup warning**
+  - For sercurity reason, browser will remind you with a popup message that said you turned on the developer mode because you installed a third party extensions, if you make sure the extensions is from trused sources or you checked the code that it is safe to use, then you can ignore the message.
