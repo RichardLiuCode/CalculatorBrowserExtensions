@@ -1,5 +1,5 @@
 # CalculatorBrowserExtensions
-This is a browser extension that is a calculator
+This is a four function calculator browser extension.
 ## Features 
 - Calculating addition, subtraction, multiplication, and divideation
 - All clear (AC) button to clear the display.
