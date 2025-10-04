@@ -2,7 +2,7 @@
     "name":"Calculator",
     "description":"A four function calculator browser extension.",
     "version":"1.0",
-    "mainfest_version":3,
+    "manifest_version":3,
     "action":{
         "default_pupup":"calculator.html",
         "default_icon":"logo.png"
