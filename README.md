@@ -25,3 +25,5 @@ This is a four function calculator browser extension.
   
 - **ignore the popup warning**
   - For sercurity reason, browser will remind you with a popup message that said you turned on the developer mode because you installed a third party extensions, if you make sure the extensions is from trused sources or you checked the code that it is safe to use, then you can ignore the message.
+
+## Preview
