@@ -1,4 +1,59 @@
-body {
+html {
     width: 400px;
-    height: 600px;
+    height: 445px;
+    background-color: aliceblue;
+    border: none;
+    scrollbar-width: none;
+    overflow-y: hidden;
+    margin: 0px;
+    margin-bottom: 50px;
+    padding: 0px;
+}
+
+#top_box {
+    background-color: rgb(208, 240, 252);
+    width: 377px;
+    height: 55px;
+    border: none;
+    border-style: solid;
+    border-color: rgb(188, 219, 241);
+    border-width: 3px;
+    margin-bottom: 40px;
+    margin-top: 5px;
+    font-size: 40px;
+    color: rgb(48, 45, 130);
+    text-align: right;
+}
+
+#top_box:focus {
+    outline: none;
+    border-color: rgb(80, 121, 244);
+}
+
+.btn {
+    width: 91px;
+    height: 60px;
+    border-style: solid;
+    border-color: rgb(188, 219, 241);
+    border-width: 3px;
+    background-color: rgb(140, 196, 248);
+    font-size: 40px;
+    color: rgb(0, 85, 255)
+}
+
+.btn:hover {
+    background-color: rgb(154, 200, 244);
+}
+
+.btn:active {
+    background-color: rgb(170, 207, 241);
+    color: rgb(56, 114, 230);
+}
+
+.rows {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 5px;
 }
