@@ -1,5 +1,6 @@
+const topBox = document.getElementById("top_box");
 function enterText(text) {
-    document.getElementById("top_box").value = document.getElementById("top_box").value + text.toString();
+    topBox.value = topBox.value + text.toString();
 }
 
 document.getElementById("1").addEventListener("click", function () {
@@ -38,14 +39,34 @@ document.getElementById("(").addEventListener("click", function () {
 document.getElementById(")").addEventListener("click", function () {
     enterText(")");
 });
-document.getElementById("plus").addEventListener("click", function () {
+document.getElementById(".").addEventListener("click", function () {
+    enterText(".");
+});
+document.getElementById("+").addEventListener("click", function () {
     enterText("+");
 });
-document.getElementById("minus").addEventListener("click", function () {
+document.getElementById("-").addEventListener("click", function () {
     enterText("-");
 });
-
-document.getElementById("times").addEventListener("click", function () {
-    enterText("*");
+document.getElementById("*").addEventListener("click", function () {
+    enterText("×");
+});
+document.getElementById("/").addEventListener("click", function () {
+    enterText("÷");
+});
+document.getElementById("ac").addEventListener("click", function () {
+    topBox.value = "";
+});
+document.getElementById("backspace").addEventListener("click", function () {
+    topBox.value = topBox.value.substring(0, topBox.value.length - 1);
+});
+document.getElementById("=").addEventListener("click", function () {
+    while (topBox.value.includes("×")) {
+        topBox.value = topBox.value.replace("×", "*");
+    }
+    while (topBox.value.includes("÷")) {
+        topBox.value = topBox.value.replace("÷", "/");
+    }
+    topBox.value = math.evaluate(topBox.value);
 });
 
